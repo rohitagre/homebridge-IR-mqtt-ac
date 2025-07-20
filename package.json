@@ -1,26 +1,27 @@
 {
-  "name": "homebridge-mqtt-acpartner",
-  "version": "0.0.7",
-  "description": "homebridge(https://github.com/nfarina/homebridge) plugin.",
+  "name": "homebridge-ir-mqtt-ac",
+  "version": "0.0.1",
+  "description": "Homebridge Companion for IR controlled ACs using MQTT and ESP8266",
   "keywords": [
     "homebridge-plugin",
     "mqtt",
     "ac"
   ],
-  "homepage": "https://github.com/hassbian-ABC/homebridge-mqtt-acpartner",
-  "author": "hassbian-abc",
+  "homepage": "https://github.com/rohitagre/homebridge-IR-mqtt-ac",
+  "author": "Rohit Agre",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hassbian-ABC/homebridge-mqtt-acpartner"
+    "url": "git://github.com/rohitagre/homebridge-IR-mqtt-ac"
   },
   "bugs": {
-    "url": "http://github.com/hassbian-ABC/homebridge-mqtt-acpartner/issues"
+    "url": "https://github.com/rohitagre/homebridge-IR-mqtt-ac/issues"
   },
   "dependencies": {
     "mqtt": "^1.6.3"
   },
   "engines": {
-    "node": ">=7.0.0",
-    "homebridge": ">=0.4.1"
+    "node": "^18.20.4 || ^20.18.0 || ^22.10.0",
+    "homebridge": "^1.8.0 || ^2.0.0-beta.0"
   }
 }
